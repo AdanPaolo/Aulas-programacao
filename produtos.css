@@ -1,0 +1,217 @@
+body {
+    background-color: rgb(0, 110, 74);
+
+}
+
+
+header {
+    background: rgba(5, 122, 255, 0.404);
+    padding: 30px;
+}
+
+.caixa {
+     position: relative;
+     width: 840px;
+     margin: 0 auto;
+}
+
+
+.pool {
+    width: 200px;
+    height: 200px;
+    border: 20px solid rgba(0, 199, 123, 0.856);
+    border-radius: 100% ;
+}
+
+
+nav {
+    position: absolute;
+    top:  90px;
+    right: 0;
+     
+}
+
+
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+#salao {
+    color: rgb(226, 43, 156);
+    padding: 5px;
+    border: 3px groove rgb(226, 43, 217);
+    border-radius: 10px;
+}
+ 
+#aguas {
+    color: rgb(0, 162, 255);
+    padding: 5px ;
+    border: 5px groove rgb(0, 160, 160);
+    border-radius: 20px;
+}
+
+#comunicamentos {
+    color: rgb(255, 2, 2);
+    padding: 5px ;
+    border:5px solid crimson;
+    border-radius: 15px 0 15px 0;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: rgb(0, 132, 255);
+    text-decoration:underline;
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 90px;
+    text-align: center;
+    padding: 50px 0;
+        
+} 
+
+#rassas {
+    color: rgb(0, 211, 211);
+
+}
+#mornass{
+    color: rgb(255, 196, 0);
+
+}
+#mortes{
+    color: rgb(22, 20, 20);
+
+}
+
+#frescas{
+    color: rgb(0, 211, 211);
+}
+
+#mornas{
+    color: rgb(255, 196, 0);
+}
+
+#mortas{
+    color: rgb(22, 20, 20);
+}
+
+.produtos li {
+      display: inline-block;
+      text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1%;
+        padding: 20px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        border:6px dashed rgb(0, 63, 47) ;
+        border-radius: 20px;
+}
+   
+.produtos li:hover {
+    border-color:rgb(0, 255, 170);
+}
+
+.produtos li:active {
+  border-color: rgb(0, 81, 255);
+
+}
+
+.produtos li:hover h2 {
+     font-size: 34px;
+
+}
+
+
+.preco {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.produtos p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+.aguas {
+    width: 230px;
+    right: 220px;
+}
+
+#aguas-rasas {
+    width: 230px;
+    height: 235px;
+    border: 6px solid cyan;
+    border-radius: 10px;
+}
+
+#aguas-mornas{
+    border: 6px solid orange;
+    border-radius: 10px;
+}
+
+ #aguas-escuras{
+    width: 230px;
+    height: 235px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+
+.nadar {
+    margin-left: 90px;
+    width:50px ;
+    height: 50px;
+}
+
+
+.produtos > li > p > img {
+    display: block;
+ }
+
+footer {
+    text-align: center;
+    background: url("pooooolroooommm.jpg");
+    padding: 40px;
+}
+
+
+#poolrooms {
+    width: 200px ;
+    height: 200px;
+}
+
+.copyright {
+    color: rgb(0, 132, 255);
+    font-size: 20px;
+    
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
